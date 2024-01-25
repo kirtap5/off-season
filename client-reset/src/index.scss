@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Nirmala";
+  src: url("./assets/fonts/Nirmala.ttf") format("truetype");
+  /* Add additional font weights and styles as needed */
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+body {
+  padding: 0px 100px;
+  font-family: "Nirmala", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("./assets/images/background.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Nirmala", sans-serif;
+}

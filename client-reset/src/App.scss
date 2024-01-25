@@ -1,0 +1,14 @@
+@import "./assets/variables";
+.App {
+  padding-top: 50px;
+}
+.mainGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr $streakSectionWidth 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+.smallText {
+  font-size: 14px;
+}

@@ -1,0 +1,40 @@
+@import "../../assets/variables";
+
+.checkpointInput {
+  color: $white;
+  position: relative;
+
+  .input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    color: $white;
+    font-size: 16px;
+    font-family: inherit;
+    margin-bottom: 5px;
+    color: $gray;
+    border-bottom: 2px solid $primary;
+    width: -webkit-fill-available;
+    margin-bottom: 20px;
+  }
+  .submitButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: $white;
+
+    &:hover {
+      color: $white;
+      background-color: $secondary;
+    }
+  }
+}
