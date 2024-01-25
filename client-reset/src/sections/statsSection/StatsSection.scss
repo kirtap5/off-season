@@ -1,0 +1,22 @@
+@import "../../assets/variables";
+
+.statsSection {
+  width: 100%;
+  color: $white;
+
+  .statsContainer {
+    margin-top: 30px;
+    width: 90%;
+  }
+  .statCell {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    p {
+      margin: 3px;
+    }
+  }
+  .underline {
+    border: 1px solid $primary;
+  }
+}

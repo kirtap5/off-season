@@ -1,0 +1,39 @@
+@import "../../assets/variables";
+
+.Logo {
+  margin: auto;
+  position: relative;
+  width: 250px;
+  color: $white;
+  margin-bottom: 100px;
+  background-color: $black;
+
+  border: 1px solid $primary;
+  padding: 30px 40px 20px 40px;
+  .text {
+    margin: 0px auto;
+  }
+  .firstLine {
+    color: $primary;
+    margin: 0px;
+  }
+  .secondLine {
+    margin: 0px;
+    margin-left: 50px;
+  }
+  .the {
+    color: $secondary;
+    font-size: 18px;
+  }
+}
+
+.Logo::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  border: 1px solid $primary;
+  z-index: -1;
+}

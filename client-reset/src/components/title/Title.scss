@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+$mainColor: #00b7ff;
+
+.mainTitle {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+  top: 100px;
+  animation: border-flicker 3s linear infinite;
+  h1 {
+    color: $mainColor;
+    font-family: "Raleway", sans-serif;
+    font-size: 64px;
+    letter-spacing: 10px;
+    animation: text-flicker 10s linear infinite;
+  }
+  #offset {
+    animation: letter-flicker 2s linear infinite;
+  }
+
+  @keyframes text-flicker {
+    0% {
+      opacity: 0.1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    2% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    8% {
+      opacity: 0.1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    9% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    12% {
+      opacity: 0.1;
+      text-shadow: 0px 0px $mainColor;
+    }
+    20% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    25% {
+      opacity: 0.3;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    30% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    70% {
+      opacity: 0.7;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    72% {
+      opacity: 0.2;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    77% {
+      opacity: 0.9;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    100% {
+      opacity: 0.9;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+  }
+
+  @keyframes letter-flicker {
+    0% {
+      opacity: 0.1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    2% {
+      opacity: 0.1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    4% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    19% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    21% {
+      opacity: 0.1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    23% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+
+    80% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    83% {
+      opacity: 0.4;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+    87% {
+      opacity: 1;
+      text-shadow: 0px 0px 29px $mainColor;
+    }
+  }
+}

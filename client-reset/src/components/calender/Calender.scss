@@ -1,0 +1,35 @@
+@import "../../assets/variables";
+.calender {
+  text-align: center;
+  color: $white;
+  border-radius: 7px;
+}
+.heading {
+  margin-top: 0;
+}
+.sevenColGrid {
+  margin: auto;
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(7, 40px);
+  justify-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.dayNode {
+  font-size: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.pastDate {
+  background-color: $primary;
+}
+.currentDate {
+  background-color: $secondary;
+}
